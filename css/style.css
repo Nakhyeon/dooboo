@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   font-family: "Merriweather", serif;
   font-size: 18px;
@@ -33,6 +34,12 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-bottom: 30px;
+}
+
+.kname {
+  font-family: 'Cute Font', cursive;
+  font-size: 18px;
+  color:#a99c92;
 }
 
 .logo {
