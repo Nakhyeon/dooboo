@@ -931,6 +931,15 @@ p {
   font-size: 14px;
   line-height: 1.5;
 }
+
+#fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > .special {
+  width: 100%;
+  float: left;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div p {
   margin: 0;
 }
