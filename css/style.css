@@ -6,6 +6,31 @@
   font-style: normal;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoimg {
+  width: 200px;
+}
+
+.logoname {
+  width: 900px;
+}
+
+.navlogo{
+  margin: 10px;
+}
+
 body {
   font-family: "Merriweather", serif;
   font-size: 18px;
@@ -1312,6 +1337,17 @@ p {
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
+  }
+  
+  .logoname {
+    width: 450px;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
